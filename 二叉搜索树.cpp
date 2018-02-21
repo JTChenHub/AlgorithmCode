@@ -36,7 +36,7 @@ int size1,size2;
 void preorder(BTNode *t)
 {
 	str[(*size)++]=t->c+'0';
-	if(t->lchild) preorder(t->lchild);
+	if(t->lchild) preorder(t->lchild); 
 	if(t->rchild) preorder(t->rchild);
 
 }
